@@ -5,6 +5,7 @@ from flask import jsonify
 from models import storage
 from models.engine.db_storage import classes
 
+
 @app_views.route('/status', strict_slashes=False)
 def Status():
     """My Status"""
